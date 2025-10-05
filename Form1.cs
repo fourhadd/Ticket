@@ -18,15 +18,15 @@ namespace Travel_Ticket
             String ZipCode = maskedTextBox3.Text;
             String phone = maskedTextBox4.Text;
             String email = textBox3.Text;
-            String ticket = "From: " + from +
-                            "\n To: " + to +
-                            "\n Date: " + date +
-                            "\n Time: " + time + "" +
-                            "\n Seat No: " + seat +
-                            "\n Name: " + name +
-                            "\n Zip Code: " + ZipCode +
-                            "\n Phone: " + phone +
-                            "\n Email: " + email;
+            String ticket = ""Haradan: " + from +
+                            "\n Haraya: " + to +
+                            "\n Tarix: " + date +
+                            "\n Saat: " + time +
+                            "\n Oturacaq №: " + seat +
+                            "\n Ad: " + name +
+                            "\n Poçt indeksi: " + ZipCode +
+                            "\n Telefon: " + phone +
+                            "\n E-poçt: " + email;
             listBox1.Items.Add(ticket);
         }
 
@@ -48,4 +48,5 @@ namespace Travel_Ticket
         }
     }
 }
+
 
